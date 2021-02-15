@@ -1,5 +1,6 @@
 # Automate Docker Using Ansible !
 
+![ansible](https://github.com/mrsarthak001/Automation-using-Ansible-/blob/master/doc/docker5.gif)
 
 ## Docker
 Docker is an OpenSource containerization platform for Building, Shipping, and Running applications using Container Virtualization technology. Docker packages all the dependencies in form of Docker containers to ensure that our application works seamlessly in any of the environments.
