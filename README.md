@@ -24,3 +24,11 @@ A list of managed nodes. An inventory file is also sometimes called a “hostile
 ### Playbooks: 
 
 Ordered lists of tasks, saved so you can run those tasks in that order repeatedly. Playbooks can include variables as well as tasks. Playbooks are written in YAML and are easy to read, write, share, and understand.
+
+---
+
+The contribution guidelines are present [here](docs/CONTRIBUTING.md)
+
+---
+
+The project is licensed under [MIT License](LICENSE) 
