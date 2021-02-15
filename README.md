@@ -27,7 +27,7 @@ Ordered lists of tasks, saved so you can run those tasks in that order repeatedl
 
 ---
 
-The contribution guidelines are present [here](docs/CONTRIBUTING.md)
+The contribution guidelines are present [here](doc/CONTRIBUTING.md)
 
 ---
 
