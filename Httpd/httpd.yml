@@ -1,15 +1,19 @@
 - hosts: all
   tasks:
-  - package:
+  - name: Installing httpd
+    package:
       name: "httpd"
       state: present
-  - copy:
+  - name: Copying webpages to the html directory
+    copy:
       src: "/path/to/your/file"
       dest: "/var/www/html/index.html"
-  - service:
+  - name: Starting and enabling the httpd service
+    service:
       name: "httpd"
       state: restarted
-  - ansible.posix.firewalld:
+  - name: Adding an exception in firewall for httpd
+    ansible.posix.firewalld:
       port: 80/tcp
       state: enabled
       permanent: yes
