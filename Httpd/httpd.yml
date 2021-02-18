@@ -1,0 +1,16 @@
+- hosts: all
+  tasks:
+  - package:
+      name: "httpd"
+      state: present
+  - copy:
+      src: "/path/to/your/file"
+      dest: "/var/www/html/index.html"
+  - service:
+      name: "httpd"
+      state: restarted
+  - ansible.posix.firewalld:
+      port: 80/tcp
+      state: enabled
+      permanent: yes
+      immediate: yes
